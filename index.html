@@ -1,40 +1,76 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Charlotte Swan Bridal - bespoke wedding dresses and bridal couture in Nottinghamshire. Elegant, modern designs for your perfect day." />
   <title>Charlotte Swan Bridal</title>
   <style>
-    :root { --accent:#b565a7; --bg:#fff7fb; --text:#333; }
-    body { font-family: system-ui,-apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:var(--text); margin:0; padding:2rem; }
-    .container { max-width:900px; margin:0 auto; }
-    header { text-align:center; padding:4rem 0 2rem; }
-    h1 { margin:0 0 .25rem; font-size:2.25rem; letter-spacing:0.3px; color:var(--accent); }
-    p.lead { margin:0 0 1.25rem; color:#6b6b6b; }
-    .hero { background:#fff; border-radius:12px; padding:2rem; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
-    footer { text-align:center; margin-top:2rem; color:#8a8a8a; font-size:.95rem; }
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #ffffff;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 300px;
+      width: 80%;
+      height: auto;
+      margin-bottom: 40px;
+    }
+
+    .socials {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .socials img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      transition: opacity 0.3s ease;
+    }
+
+    .socials img:hover {
+      opacity: 0.7;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #888;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Charlotte Swan Bridal</h1>
-      <p class="lead">Elegant bridal styling and custom gowns — welcome to our project repo.</p>
-    </header>
+  <!-- Main logo -->
+  <img 
+    src="logo.png" 
+    alt="Charlotte Swan Bridal - bespoke wedding dresses and bridal couture" 
+    class="logo"
+  />
 
-    <main class="hero" role="main">
-      <p>This is a placeholder index.html. Replace this with your site content or tell me what you'd like added (pages, images, contact form, etc.).</p>
-      <ul>
-        <li>Filename: <strong>index.html</strong></li>
-        <li>Location: repository root (can be moved to /docs or another folder)</li>
-        <li>Branch: <strong>main</strong></li>
-      </ul>
-    </main>
-
-    <footer>
-      <small>Generated on request by @alanswan</small>
-    </footer>
+  <!-- Social links -->
+  <div class="socials">
+    <a href="https://www.instagram.com/charlotteswanbridal" target="_blank" rel="noopener noreferrer">
+      <img src="instagram.png" alt="Follow Charlotte Swan Bridal on Instagram" />
+    </a>
+    <a href="mailto:hello@charlotteswanbridal.com">
+      <img src="email.png" alt="Email Charlotte Swan Bridal" />
+    </a>
   </div>
+
+  <footer>
+    &copy; 2025 Charlotte Swan Bridal. All rights reserved.
+  </footer>
 </body>
 </html>
